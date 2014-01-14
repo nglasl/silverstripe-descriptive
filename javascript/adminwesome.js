@@ -22,9 +22,6 @@
 						element.html(caption.html());
 						element.stop(true).fadeIn();
 					}
-					else {
-						element.stop(true).fadeOut();
-					}
 				}
 			});
 

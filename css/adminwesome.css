@@ -11,10 +11,12 @@ div#cms-menu-captionwesome.caption {
 	-moz-box-shadow: 1px 2px 3px #338DC1;
 	box-shadow: 1px 2px 3px #338DC1;
 	margin-left: 5px;
+	max-width: 395px;
+	text-align: center;
+	border: 1px solid #338DC1;
 }
 
 div#cms-menu-captionwesome.caption:after {
-	border-color: transparent #075698;
 	content: '';
 	position: absolute;
 	border-style: solid;
