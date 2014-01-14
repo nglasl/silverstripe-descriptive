@@ -1,0 +1,48 @@
+div#cms-menu-captionwesome.caption {
+	position: absolute;
+	background: white;
+	display: none;
+	z-index: 1000002;
+	padding: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 1px 2px 3px #338DC1;
+	-moz-box-shadow: 1px 2px 3px #338DC1;
+	box-shadow: 1px 2px 3px #338DC1;
+}
+
+div#cms-menu-captionwesome.caption.left {
+	margin-left: 5px;
+}
+
+div#cms-menu-captionwesome.caption.top {
+	margin-top: 5px;
+}
+
+div#cms-menu-captionwesome.caption.left:after,
+div#cms-menu-captionwesome.caption.top:after {
+	border-color: transparent #075698;
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-color: white transparent;
+	display: block;
+	width: 0;
+}
+
+div#cms-menu-captionwesome.caption.left:after {
+	bottom: 8px;
+	left: -10px;
+	border-width: 10px 0 0 10px;
+}
+
+div#cms-menu-captionwesome.caption.top:after {
+	bottom: 30px;
+	left: 80px;
+	border-width: 0 0 15px 15px;
+}
+
+div.captionawesome-description {
+	display: none;
+}
