@@ -16,16 +16,25 @@ div#cms-menu-captionwesome.caption {
 	border: 1px solid #338DC1;
 }
 
-div#cms-menu-captionwesome.caption:after {
-	content: '';
-	position: absolute;
-	border-style: solid;
-	border-color: white transparent;
-	display: block;
-	width: 0;
-	bottom: 8px;
-	left: -10px;
-	border-width: 10px 0 0 10px;
+div#cms-menu-captionwesome.caption:after,
+div#cms-menu-captionwesome.caption:before {
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid white;
+    bottom: -20px;
+    content: '';
+    left: 50%;
+    margin-left: -20px;
+    position: absolute;
+}
+
+div#cms-menu-captionwesome.caption:before {
+    border-left: 23px solid transparent;
+    border-right: 23px solid transparent;
+    border-top: 23px solid;
+    border-top-color: inherit;
+    bottom: -23px;
+    margin-left: -23px;
 }
 
 div.captionawesome-description {
