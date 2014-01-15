@@ -18,23 +18,20 @@ div#cms-menu-captionwesome.caption {
 
 div#cms-menu-captionwesome.caption:after,
 div#cms-menu-captionwesome.caption:before {
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    border-top: 20px solid white;
-    bottom: -20px;
+    border-left: 10px solid transparent;
+    border-top: 10px solid white;
+    bottom: 8px;
     content: '';
-    left: 50%;
-    margin-left: -20px;
+    left: -10px;
     position: absolute;
 }
 
 div#cms-menu-captionwesome.caption:before {
-    border-left: 23px solid transparent;
-    border-right: 23px solid transparent;
-    border-top: 23px solid;
+    border-left: 13px solid transparent;
+    border-top: 13px solid;
     border-top-color: inherit;
-    bottom: -23px;
-    margin-left: -23px;
+    bottom: 6px;
+	left: -13px;
 }
 
 div.captionawesome-description {
