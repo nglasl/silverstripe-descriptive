@@ -7,9 +7,9 @@ div#cms-menu-captionwesome.caption {
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;
-	-webkit-box-shadow: 2px 2px 3px #304E80;
-	-moz-box-shadow: 2px 2px 3px #304E80;
-	box-shadow: 2px 2px 3px #304E80;
+	-webkit-box-shadow: 1px 1px 2px #304E80;
+	-moz-box-shadow: 1px 1px 2px #304E80;
+	box-shadow: 1px 1px 2px #304E80;
 	margin: 5px 0 0 5px;
 	max-width: 395px;
 	text-align: center;
