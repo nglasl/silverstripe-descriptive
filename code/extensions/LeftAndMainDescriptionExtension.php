@@ -11,7 +11,7 @@ class LeftAndMainDescriptionExtension extends Extension {
 	 *	Add a model admin description to each CMS menu tab.
 	 */
 
-	public function UpdatedMainMenu() {
+	public function updatedMainMenu() {
 
 		$tabs = $this->owner->MainMenu();
 		foreach($tabs as $tab) {
@@ -19,6 +19,7 @@ class LeftAndMainDescriptionExtension extends Extension {
 				$tab->setField('Description', Config::inst()->get($tab->MenuItem->controller, 'menu_description'));
 			}
 		}
+		$this->owner->extend('updateMainMenu', $tabs);
 		return $tabs;
 	}
 }

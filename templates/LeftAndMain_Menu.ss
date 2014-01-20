@@ -20,7 +20,7 @@
 	</div>
 	<div class='cms-panel-content center'>
 		<ul class='cms-menu-list'>
-		<% loop UpdatedMainMenu %>
+		<% loop updatedMainMenu %>
 			<li class='{$LinkingMode} {$FirstLast} <% if $LinkingMode == 'link' %><% else %>opened<% end_if %>' id='Menu-{$Code}'>
 				<a href='{$Link}' {$AttributesHTML}>
 					<span class='icon icon-16 icon-{$Code.LowerCase}'>&nbsp;</span>
