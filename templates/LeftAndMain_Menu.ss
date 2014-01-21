@@ -22,7 +22,7 @@
 						<span class='icon icon-16 icon-{$Code.LowerCase}'>&nbsp;</span>
 						<span class='text'>{$Title}</span>
 						<% if $Description %>
-							<div class='captionawesome-description'>{$Description}</div>
+							<div class='adminwesome-description'>{$Description}</div>
 						<% end_if %>
 					</a>
 				</li>
