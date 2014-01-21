@@ -13,15 +13,15 @@ http://slid.es/nglasl/adminwesome
 ## Getting Started
 
 * Place the module under your root project directory.
+* Define your model admin descriptions.
 * `/dev/build`
-* Define `model_description`.
 
 ## Overview
 
-Display a description for your custom model admin.
+Customising a model admin description, either directly or by extension:
 
 ```php
-private static $model_description = 'Description';
+private static $menu_description = 'Description';
 ```
 
 ## Maintainer Contact
