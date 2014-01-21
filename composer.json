@@ -5,8 +5,7 @@
 	"keywords": [
 		"silverstripe",
 		"model admin",
-		"description",
-		"accessibility"
+		"description"
 	],
 	"homepage": "https://github.com/nglasl/silverstripe-adminwesome",
 	"license": "BSD-3-Clause",
