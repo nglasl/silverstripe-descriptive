@@ -32,6 +32,7 @@ div.adminwesome-description {
 	position: absolute;
 	border-top: 10px solid white;
 	border-left: 10px solid transparent;
+	border-left: 10px solid rgba(255, 255, 255, 0);
 	top: 7px;
 	left: -10px;
 }
@@ -40,6 +41,7 @@ div.adminwesome-description {
 	border-top: 13px solid;
 	border-top-color: inherit;
 	border-left: 13px solid transparent;
+	border-left: 13px solid rgba(255, 255, 255, 0);
 	top: 6px;
 	left: -13px;
 }
