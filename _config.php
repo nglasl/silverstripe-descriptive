@@ -9,3 +9,14 @@ if(!defined('ADMINWESOME_PATH')) {
 	define('ADMINWESOME_PATH', rtrim(basename(dirname(__FILE__))));
 }
 AdminwesomeService::apply_required_extensions();
+
+/**
+ *
+ *	EXAMPLE: Apply custom styles to the absolute description element.
+ *
+ *	@parameter <{DESCRIPTION_CSS}> array(string)
+ *
+ *	AdminwesomeService::customise_css(array(
+ *	));
+ *
+ */
