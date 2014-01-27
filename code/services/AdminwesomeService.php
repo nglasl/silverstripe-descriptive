@@ -46,6 +46,7 @@ class AdminwesomeService {
 			// Write the custom styles.
 
 			file_put_contents($path, $CSS);
+			chmod($path, 0664);
 			LeftAndMain::require_css($URL);
 		}
 	}
