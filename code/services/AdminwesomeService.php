@@ -39,9 +39,19 @@ class AdminwesomeService {
 			foreach($styles as $style => $value) {
 				if(!is_numeric($style)) {
 					$CSS .= "\t{$style}: {$value} !important;" . PHP_EOL;
+
+					// Collate any possible background changes.
+
+					if(strtolower($style) === 'background') {
+						$background = '#cms-menu-adminwesome:before,' . PHP_EOL . '#cms-menu-adminwesome:after {' . PHP_EOL;
+						$background .= "\tborder-top: 10px solid {$value} !important;" . PHP_EOL . '}' . PHP_EOL . PHP_EOL;
+						$background .= '#cms-menu-adminwesome:before {' . PHP_EOL;
+						$background .= "\tborder-top: 13px solid !important;" . PHP_EOL;
+						$background .= "\tborder-top-color: inherit !important;" . PHP_EOL . '}' . PHP_EOL;
+					}
 				}
 			}
-			$CSS .= '}' . PHP_EOL;
+			$CSS .= '}' . PHP_EOL . PHP_EOL . $background;
 
 			// Write the custom styles.
 
