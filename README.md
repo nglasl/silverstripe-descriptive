@@ -26,6 +26,19 @@ Customising a description, either directly or by extension:
 private static $menu_description = 'Description';
 ```
 
+### CSS Customisation
+
+Apply custom styles to the absolute description element.
+
+```php
+AdminwesomeService::customise_css(array(
+	'background' => '#D4D6D8',
+	'color' => '#304E80'
+));
+```
+
+More advanced customisation will need to be implemented outside of this service, such as border manipulation.
+
 ## Maintainer Contact
 
 	Nathan Glasl, nathan@silverstripe.com.au
