@@ -20,7 +20,7 @@ http://slid.es/nglasl/adminwesome
 
 ### Model Admin Description
 
-Customising a description, either directly or by extension:
+Creating a description, either directly or by extension:
 
 ```php
 private static $menu_description = 'Description';
