@@ -17,8 +17,8 @@ AdminwesomeService::apply_required_extensions();
  *	@parameter <{DESCRIPTION_CSS}> array(string)
  *
  *	AdminwesomeService::customise_css(array(
- *		'background' => 'black',
- *		'color' => 'white'
+ *		'background' => '#D4D6D8',
+ *		'color' => '#304E80'
  *	));
  *
  */

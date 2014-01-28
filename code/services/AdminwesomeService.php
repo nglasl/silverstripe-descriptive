@@ -40,7 +40,7 @@ class AdminwesomeService {
 				if(!is_numeric($style)) {
 					$CSS .= "\t{$style}: {$value} !important;" . PHP_EOL;
 
-					// Collate any possible background changes.
+					// Apply any possible background change.
 
 					if(strtolower($style) === 'background') {
 						$background = '#cms-menu-adminwesome:before,' . PHP_EOL . '#cms-menu-adminwesome:after {' . PHP_EOL;
