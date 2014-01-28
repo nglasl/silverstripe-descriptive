@@ -28,7 +28,7 @@ private static $menu_description = 'Description';
 
 ### CSS Customisation
 
-Apply custom styles to the absolute description element.
+Apply custom styles to the absolute description element:
 
 ```php
 AdminwesomeService::customise_css(array(
