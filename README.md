@@ -1,10 +1,8 @@
-# adminwesome
+# [adminwesome](http://slid.es/nglasl/adminwesome)
 
 _**NOTE:** This branch is for development only._
 
 	A module for SilverStripe which will allow model admin descriptions to appear on mouse over.
-
-http://slid.es/nglasl/adminwesome
 
 ## Requirement
 
