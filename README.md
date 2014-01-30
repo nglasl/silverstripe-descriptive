@@ -37,9 +37,9 @@ AdminwesomeService::customise_css(array(
 ));
 ```
 
-More advanced configuration will need to be implemented outside of this service, such as border manipulation.
-
 ![customised](images/adminwesome-customised.png)
+
+More advanced configuration will need to be implemented outside of this service, such as border manipulation.
 
 ## Maintainer Contact
 
