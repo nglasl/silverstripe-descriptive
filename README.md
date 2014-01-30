@@ -24,6 +24,8 @@ Creating a description, either directly or by extension:
 private static $menu_description = 'Description';
 ```
 
+![default](images/adminwesome-default.png)
+
 ### CSS Customisation
 
 Apply custom styles to the absolute description element:
@@ -36,6 +38,8 @@ AdminwesomeService::customise_css(array(
 ```
 
 More advanced configuration will need to be implemented outside of this service, such as border manipulation.
+
+![customised](images/adminwesome-customised.png)
 
 ## Maintainer Contact
 
