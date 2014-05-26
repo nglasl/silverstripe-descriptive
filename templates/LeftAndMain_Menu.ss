@@ -16,7 +16,7 @@
 	</div>
 	<div class='cms-panel-content center'>
 		<ul class='cms-menu-list'>
-			<% loop updatedMainMenu %>
+			<% loop UpdatedMainMenu %>
 				<li id='Menu-{$Code}' class='{$LinkingMode} {$FirstLast}'>
 					<a href='{$Link}' {$AttributesHTML}>
 						<span class='icon icon-16 icon-{$Code.LowerCase}'>&nbsp;</span>
