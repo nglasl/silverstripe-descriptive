@@ -1,4 +1,4 @@
-# [adminwesome](http://slid.es/nglasl/adminwesome)
+# [adminwesome](https://github.com/nglasl)
 
 _**NOTE:** This branch is for development only._
 
