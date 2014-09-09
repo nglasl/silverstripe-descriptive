@@ -1,7 +1,7 @@
 <?php
 
 /**
- *	Adminwesome specific configuration settings.
+ *	The adminwesome specific configuration settings.
  *	@author Nathan Glasl <nathan@silverstripe.com.au>
  */
 
