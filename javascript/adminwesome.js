@@ -32,6 +32,7 @@
 						element.css({top: $(this).offset().top, left: $(this).width()});
 						element.html(description.html());
 						show = setTimeout(function() {
+
 							element.fadeIn(250);
 						}, 250);
 					}
