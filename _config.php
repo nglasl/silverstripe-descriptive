@@ -8,7 +8,7 @@
 if(!defined('ADMINWESOME_PATH')) {
 	define('ADMINWESOME_PATH', rtrim(basename(dirname(__FILE__))));
 }
-AdminwesomeService::apply_required_extensions();
+AdminwesomeService::apply_requirements();
 
 /**
  *
