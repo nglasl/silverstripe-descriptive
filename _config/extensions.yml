@@ -1,0 +1,6 @@
+---
+name: adminwesome-extensions
+---
+LeftAndMain:
+  extensions:
+    - 'LeftAndMainDescriptionExtension'

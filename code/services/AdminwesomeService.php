@@ -11,9 +11,8 @@ class AdminwesomeService {
 	 *	Apply all Adminwesome required extensions.
 	 */
 
-	public static function apply_required_extensions() {
+	public static function apply_requirements() {
 
-		Object::add_extension('LeftAndMain', 'LeftAndMainDescriptionExtension');
 		LeftAndMain::require_javascript(ADMINWESOME_PATH . '/javascript/adminwesome.js');
 		LeftAndMain::require_css(ADMINWESOME_PATH . '/css/adminwesome.css');
 	}
