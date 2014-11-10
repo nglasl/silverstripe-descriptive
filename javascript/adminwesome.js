@@ -1,5 +1,5 @@
 ;(function($) {
-	$(function() {
+	$(window).load(function() {
 
 		// Instantiate the absolute description element.
 
