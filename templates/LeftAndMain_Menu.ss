@@ -5,7 +5,7 @@
 			<span><% if $SiteConfig %>{$SiteConfig.Title}<% else %>{$ApplicationName}<% end_if %></span>
 		</div>
 		<div class='cms-login-status'>
-			<a href='Security/logout' class='logout-link' title="<% _t('LeftAndMain_Menu_ss.LOGOUT', 'Log out') %>"><% _t('LeftAndMain_Menu_ss.LOGOUT', 'Log out') %></a>
+			<a href='security/logout' class='logout-link' title="<% _t('LeftAndMain_Menu_ss.LOGOUT', 'Log Out') %>"><% _t('LeftAndMain_Menu_ss.LOGOUT', 'Log Out') %></a>
 			<% with $CurrentMember %>
 				<span>
 					<% _t('LeftAndMain_Menu_ss.Hello', 'Hi') %>
