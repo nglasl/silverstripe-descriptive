@@ -16,7 +16,7 @@
 
 			// When the mouse enters the menu, display the absolute description element.
 
-			$('#cms-menu ul.cms-menu-list li').entwine({
+			$('#cms-menu ul.cms-menu-list-adminwesome li').entwine({
 				onmouseenter: function() {
 
 					clearTimeout(show);
@@ -44,7 +44,7 @@
 
 			// When the mouse leaves the menu, hide the absolute description element.
 
-			$('#cms-menu ul.cms-menu-list').entwine({
+			$('#cms-menu ul.cms-menu-list-adminwesome').entwine({
 				onmouseleave: function() {
 
 					clearTimeout(show);

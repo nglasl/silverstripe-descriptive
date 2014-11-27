@@ -15,7 +15,7 @@
 		</div>
 	</div>
 	<div class='cms-panel-content center'>
-		<ul class='cms-menu-list'>
+		<ul class='cms-menu-list cms-menu-list-adminwesome'>
 			<% loop $UpdatedMainMenu %>
 				<li id='Menu-{$Code}' class='{$LinkingMode} {$FirstLast}'>
 					<a href='{$Link}' {$AttributesHTML}>
