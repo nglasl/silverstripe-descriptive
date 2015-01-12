@@ -2,8 +2,8 @@
 
 _The current release is **1.0.0**_
 
-	A module for SilverStripe which will allow model admin descriptions to appear on mouse
-	over.
+	A module for SilverStripe which will allow model admin descriptions to appear on
+	mouse over.
 
 ## Requirement
 
