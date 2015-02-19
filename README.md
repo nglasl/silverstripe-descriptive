@@ -1,4 +1,4 @@
-# [adminwesome](https://github.com/nglasl)
+# [adminwesome](https://packagist.org/packages/nglasl/silverstripe-adminwesome)
 
 _The current release is **1.0.1**_
 
