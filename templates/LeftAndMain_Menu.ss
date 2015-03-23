@@ -30,11 +30,7 @@
 		</ul>
 	</div>
 	<div class='cms-panel-toggle south'>
-		<a href='#' class='toggle-expand'>
-			<span>&raquo;</span>
-		</a>
-		<a href='#' class='toggle-collapse'>
-			<span>&laquo;</span>
-		</a>
+		<a href='#' class='toggle-expand'><span>&raquo;</span></a>
+		<a href='#' class='toggle-collapse'><span>&laquo;</span></a>
 	</div>
 </div>
