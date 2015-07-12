@@ -1,14 +1,14 @@
 
 /**
- *	The adminwesome specific styling.
+ *	The descriptive specific styling.
  *	@author Nathan Glasl <nathan@silverstripe.com.au>
  */
 
-div.adminwesome-description {
+div.descriptive-description {
 	display: none;
 }
 
-#cms-menu-adminwesome {
+#cms-menu-descriptive {
 	display: none;
 	position: absolute;
 	z-index: 1000002;
@@ -27,8 +27,8 @@ div.adminwesome-description {
 	cursor: default;
 }
 
-#cms-menu-adminwesome:before,
-#cms-menu-adminwesome:after {
+#cms-menu-descriptive:before,
+#cms-menu-descriptive:after {
 	content: '';
 	position: absolute;
 	border-top: 10px solid white;
@@ -38,7 +38,7 @@ div.adminwesome-description {
 	left: -10px;
 }
 
-#cms-menu-adminwesome:before {
+#cms-menu-descriptive:before {
 	border-top: 13px solid;
 	border-top-color: inherit;
 	border-left: 13px solid transparent;

@@ -1,7 +1,7 @@
 <?php
 
 /**
- *	Adminwesome extension which will allow model admin descriptions to be pulled into the CMS template.
+ *	Descriptive extension which will allow model admin descriptions to be pulled into the CMS template.
  *	@author Nathan Glasl <nathan@silverstripe.com.au>
  */
 

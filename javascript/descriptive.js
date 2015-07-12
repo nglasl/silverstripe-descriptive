@@ -3,8 +3,8 @@
 
 		// Instantiate the absolute description element.
 
-		$('body').append("<div id='cms-menu-adminwesome'></div>");
-		var element = $('#cms-menu-adminwesome');
+		$('body').append("<div id='cms-menu-descriptive'></div>");
+		var element = $('#cms-menu-descriptive');
 
 		// The timer to display the absolute description element correctly.
 
@@ -16,14 +16,14 @@
 
 			// When the mouse enters the menu, display the absolute description element.
 
-			$('#cms-menu ul.cms-menu-list-adminwesome li').entwine({
+			$('#cms-menu ul.cms-menu-list-descriptive li').entwine({
 				onmouseenter: function() {
 
 					clearTimeout(show);
 
 					// Retrieve the appropriate description.
 
-					var description = $(this).find('div.adminwesome-description').first();
+					var description = $(this).find('div.descriptive-description').first();
 					if(description.length) {
 
 						// Update the absolute description element.
@@ -44,7 +44,7 @@
 
 			// When the mouse leaves the menu, hide the absolute description element.
 
-			$('#cms-menu ul.cms-menu-list-adminwesome').entwine({
+			$('#cms-menu ul.cms-menu-list-descriptive').entwine({
 				onmouseleave: function() {
 
 					clearTimeout(show);

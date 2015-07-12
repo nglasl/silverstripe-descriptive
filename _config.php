@@ -1,14 +1,14 @@
 <?php
 
 /**
- *	The adminwesome specific configuration settings.
+ *	The descriptive specific configuration settings.
  *	@author Nathan Glasl <nathan@silverstripe.com.au>
  */
 
-if(!defined('ADMINWESOME_PATH')) {
-	define('ADMINWESOME_PATH', rtrim(basename(dirname(__FILE__))));
+if(!defined('DESCRIPTIVE_PATH')) {
+	define('DESCRIPTIVE_PATH', rtrim(basename(dirname(__FILE__))));
 }
-AdminwesomeService::apply_requirements();
+DescriptiveService::apply_requirements();
 
 /**
  *
@@ -16,7 +16,7 @@ AdminwesomeService::apply_requirements();
  *
  *	@parameter <{DESCRIPTION_CSS}> array(string)
  *
- *	AdminwesomeService::customise_css(array(
+ *	DescriptiveService::customise_css(array(
  *		'background' => '#D4D6D8',
  *		'color' => '#304E80'
  *	));

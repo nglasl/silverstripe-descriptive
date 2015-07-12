@@ -15,14 +15,14 @@
 		</div>
 	</div>
 	<div class='cms-panel-content center'>
-		<ul class='cms-menu-list cms-menu-list-adminwesome'>
+		<ul class='cms-menu-list cms-menu-list-descriptive'>
 			<% loop $UpdatedMainMenu %>
 				<li id='Menu-{$Code}' class='{$LinkingMode} {$FirstLast}'>
 					<a href='{$Link}' {$AttributesHTML}>
 						<span class='icon icon-16 icon-{$Code.LowerCase}'>&nbsp;</span>
 						<span class='text'>{$Title}</span>
 						<% if $Description %>
-							<div class='adminwesome-description'>{$Description}</div>
+							<div class='descriptive-description'>{$Description}</div>
 						<% end_if %>
 					</a>
 				</li>

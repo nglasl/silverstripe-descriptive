@@ -1,5 +1,5 @@
 {
-	"name": "nglasl/silverstripe-adminwesome",
+	"name": "nglasl/silverstripe-descriptive",
 	"description": "A module for SilverStripe which will allow model admin descriptions to appear on mouse over.",
 	"type": "silverstripe-module",
 	"keywords": [
@@ -7,7 +7,7 @@
 		"model admin",
 		"description"
 	],
-	"homepage": "https://github.com/nglasl/silverstripe-adminwesome",
+	"homepage": "https://github.com/nglasl/silverstripe-descriptive",
 	"license": "BSD-3-Clause",
 	"authors": [{
 		"name": "Nathan Glasl",
@@ -18,7 +18,7 @@
 		"silverstripe/framework": "3.1.*"
 	},
 	"extra": {
-		"installer-name": "adminwesome",
+		"installer-name": "descriptive",
 		"branch-alias": {
 			"dev-master": "1.0.x-dev"
 		}

@@ -1,4 +1,4 @@
-# [adminwesome](https://packagist.org/packages/nglasl/silverstripe-adminwesome)
+# [descriptive](https://packagist.org/packages/nglasl/silverstripe-descriptive)
 
 _The current release is **1.0.1**_
 
@@ -25,20 +25,20 @@ Creating a description, either directly or by extension:
 private static $menu_description = 'Description';
 ```
 
-![default](images/adminwesome-default.png)
+![default](images/descriptive-default.png)
 
 ### CSS Customisation
 
 Apply custom styles to the absolute description element:
 
 ```php
-AdminwesomeService::customise_css(array(
+DescriptiveService::customise_css(array(
 	'background' => '#D4D6D8',
 	'color' => '#304E80'
 ));
 ```
 
-![customised](images/adminwesome-customised.png)
+![customised](images/descriptive-customised.png)
 
 More advanced configuration will need to be implemented outside of this service, such as border manipulation.
 
