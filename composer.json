@@ -18,6 +18,7 @@
 		"silverstripe/framework": "3.1.*"
 	},
 	"extra": {
+		"screenshots" : ["https://raw.githubusercontent.com/nglasl/silverstripe-descriptive/master/images/descriptive-default.png"],
 		"installer-name": "descriptive",
 		"branch-alias": {
 			"dev-master": "1.0.x-dev"
