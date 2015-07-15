@@ -25,7 +25,7 @@ Creating a description, either directly or by extension:
 private static $menu_description = 'Description';
 ```
 
-![default](images/descriptive-default.png)
+![default](https://raw.githubusercontent.com/nglasl/silverstripe-descriptive/master/images/descriptive-default.png)
 
 ### CSS Customisation
 
@@ -38,7 +38,7 @@ DescriptiveService::customise_css(array(
 ));
 ```
 
-![customised](images/descriptive-customised.png)
+![customised](https://raw.githubusercontent.com/nglasl/silverstripe-descriptive/master/images/descriptive-customised.png)
 
 More advanced configuration will need to be implemented outside of this service, such as border manipulation.
 
