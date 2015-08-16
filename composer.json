@@ -20,7 +20,7 @@
 	"extra": {
 		"installer-name": "descriptive",
 		"branch-alias": {
-			"dev-master": "1.0.x-dev"
+			"dev-master": "2.0.x-dev"
 		},
 		"screenshots": [
 			"https://raw.githubusercontent.com/nglasl/silverstripe-descriptive/master/images/descriptive-default.png"
