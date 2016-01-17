@@ -13,8 +13,8 @@ class DescriptiveService {
 
 	public static function apply_requirements() {
 
-		LeftAndMain::require_javascript(DESCRIPTIVE_PATH . '/javascript/descriptive.js');
 		LeftAndMain::require_css(DESCRIPTIVE_PATH . '/css/descriptive.css');
+		LeftAndMain::require_javascript(DESCRIPTIVE_PATH . '/javascript/descriptive.js');
 	}
 
 	/**
