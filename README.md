@@ -7,7 +7,7 @@ _The current release is **2.1.1**_
 
 ## Requirement
 
-* SilverStripe 3.1.X or _**3.2.X**_
+* SilverStripe 3.1.X or **3.2.X**
 
 ## Getting Started
 
