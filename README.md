@@ -1,9 +1,8 @@
 # [descriptive](https://packagist.org/packages/nglasl/silverstripe-descriptive)
 
-_The current release is **2.1.1**_
+_The current release is **2.1.2**_
 
-	A module for SilverStripe which will allow model admin descriptions to appear on
-	mouse over.
+> A module for SilverStripe which will allow model admin descriptions to appear on mouse over.
 
 ## Requirement
 
