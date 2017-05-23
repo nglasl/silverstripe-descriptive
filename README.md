@@ -1,6 +1,6 @@
 # [descriptive](https://packagist.org/packages/nglasl/silverstripe-descriptive)
 
-_The current release is **2.1.4**_
+_The current release is **2.1.5**_
 
 > A module for SilverStripe which will allow model admin descriptions to appear on mouse over.
 
@@ -12,7 +12,7 @@ This module is **no longer supported**.
 
 ## Getting Started
 
-* Place the module under your root project directory.
+* [Place the module under your root project directory.](https://packagist.org/packages/nglasl/silverstripe-descriptive)
 * Define your model admin descriptions.
 * `/dev/build`
 
