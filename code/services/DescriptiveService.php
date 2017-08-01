@@ -2,7 +2,7 @@
 
 /**
  *	Handles any user customisation.
- *	@author Nathan Glasl <nathan@silverstripe.com.au>
+ *	@author Nathan Glasl <nathan@symbiote.com.au>
  */
 
 class DescriptiveService {

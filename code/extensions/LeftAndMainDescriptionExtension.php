@@ -2,7 +2,7 @@
 
 /**
  *	Descriptive extension which will allow model admin descriptions to be pulled into the CMS template.
- *	@author Nathan Glasl <nathan@silverstripe.com.au>
+ *	@author Nathan Glasl <nathan@symbiote.com.au>
  */
 
 class LeftAndMainDescriptionExtension extends Extension {

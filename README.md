@@ -45,4 +45,4 @@ More advanced configuration will need to be implemented outside of this service,
 
 ## Maintainer Contact
 
-	Nathan Glasl, nathan@silverstripe.com.au
+	Nathan Glasl, nathan@symbiote.com.au
